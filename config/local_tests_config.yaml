@@ -1,0 +1,11 @@
+env: local
+storage_path: "C:\\Users\\User\\Desktop\\auth-service\\sso\\storage\\sso.db"
+grpc:
+  port: 44044
+  timeout: 5s
+token_ttl: 1h
+migrations_path: "./migrations"
+
+testing:
+  use_mock_db: true
+  test_timeout: 10s

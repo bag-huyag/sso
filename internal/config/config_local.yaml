@@ -1,0 +1,7 @@
+# config/config_local.yaml
+
+env: "local"  
+storage_path: "C:\\Users\\User\\Desktop\\auth-service\\sso\\storage\\sso.db"
+grpc:  
+  port: 44044  
+  timeout: 10h
