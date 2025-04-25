@@ -63,3 +63,8 @@ func setupLogger(env string) *slog.Logger {
 
 	return log
 }
+
+//go run ./cmd/sso --config=./config/local_tests_config.yaml
+
+//$env:CONFIG_PATH="C:\Users\User\Desktop\auth-service\sso\config\local_tests_config.yaml"
+//go test ./tests -count=1 -v
